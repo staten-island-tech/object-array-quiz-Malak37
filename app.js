@@ -47,20 +47,19 @@ console.table(dems2);
 });
 console.table(LBJ);*/
 
-//const LBJ = presidents.some(function (president) {
+const LBJ = presidents.some(function (president) {
   ///const tru = "LBJ served two terms";
   ///const fals = "LBJ was one and done";
-  const LJ = president.name === "Lyndon Johnson"{
-    if (president.terms === 2){
-      console.log("LBJ served two terms");
-    } else{
-      console.log("LBJ was one and done");
-    }
+  if ((president.terms === 2) & (president.name === "Lyndon Johnson")) {
+    console.log("LBJ served two terms");
+  } else {
+    console.log("LBJ was one and done");
   }
-  ///if (president.terms === 2 && president.name === "Lyndon Johnson") {
-  ///  console.log("LBJ served two terms");
-  ///} else {
-  ///  console.log("LBJ was one and done");
- // }
+});
+///if (president.terms === 2 && president.name === "Lyndon Johnson") {
+///  console.log("LBJ served two terms");
+///} else {
+///  console.log("LBJ was one and done");
+// }
 //});
 console.log(LBJ);
