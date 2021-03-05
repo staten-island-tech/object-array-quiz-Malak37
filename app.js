@@ -51,9 +51,9 @@ const LBJ = presidents.some(function (president) {
   ///const tru = "LBJ served two terms";
   ///const fals = "LBJ was one and done";
   if ((president.terms === 2) & (president.name === "Lyndon Johnson")) {
-    console.log("LBJ served two terms");
+    alert("LBJ served two terms");
   } else {
-    console.log("LBJ was one and done");
+    alert("LBJ was one and done");
   }
 });
 ///if (president.terms === 2 && president.name === "Lyndon Johnson") {
